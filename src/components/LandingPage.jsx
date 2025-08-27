@@ -16,7 +16,7 @@ const LandingPage = () => {
             
             <button className='w-full py-2 font-semibold cursor-pointer rounded-lg text-white bg-[#6c25ff]'>Create Account</button>
             </Link>
-            <Link to={'/PopX/LoginPage'}>
+            <Link to={'/PopX-Frontend/LoginPage'}>
             
             <button className='w-full py-2 font-semibold cursor-pointer rounded-lg bg-[#cdb9fa]'>Already Registerd? Login</button>
             </Link>

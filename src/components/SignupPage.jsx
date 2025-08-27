@@ -47,7 +47,7 @@ const SignupPage = () => {
                                 </label>
                             </div>
                         </form>
-                        <Link to={'/PopX/Profile'}>
+                        <Link to={'/PopX-Frontend/Profile'}>
                             <button className='w-full py-3 font-semibold cursor-pointer rounded-lg text-white bg-[#6c25ff]'>Create Account</button>
                         </Link>
                     </div>

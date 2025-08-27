@@ -10,7 +10,7 @@ import Profile from './components/Profile.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/PopX/',
+    path: '/PopX-Frontend/',
     element: <App />,
     children: [
       {
@@ -22,15 +22,15 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: "/PopX/LoginPage",
+    path: "/PopX-Frontend/LoginPage",
     element: <><LoginPage/> </>
   },
   {
-    path: "/PopX/SignupPage",
+    path: "/PopX-Frontend/SignupPage",
     element: <><SignupPage/> </>
   },
   {
-    path: "/PopX/Profile",
+    path: "/PopX-Frontend/Profile",
     element: <><Profile/> </>
   },
 
